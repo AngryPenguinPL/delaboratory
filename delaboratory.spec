@@ -10,7 +10,7 @@ Patch0:		delaboratory-0.8-mdv-makefile.patch
 Requires:	dcraw
 BuildRequires:	tiff-devel
 BuildRequires:	wxgtku-devel
-BuildRequires:	libxml2-devel
+BuildRequires: pkgconfig(libxml-2.0)
 
 
 %description
